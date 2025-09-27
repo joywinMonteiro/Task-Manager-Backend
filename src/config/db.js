@@ -14,6 +14,6 @@ const connectDB = async (mongoUri) => {
   }else {
       throw err; // let Jest handle the error
     }
-};
+}};
 
 export default connectDB;
