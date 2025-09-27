@@ -33,4 +33,4 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
 
       - name: Push image
-        run: docker tag task-manager your-dockerhub-username/task-manager:latest && docker push your-dockerhub-username/task-manager:latest
+        run: docker tag task-manager joywin07/task-manager-api:latest && docker push joywin07/task-manager-api:latest
