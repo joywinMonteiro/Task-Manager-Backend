@@ -1,6 +1,24 @@
+<<<<<<< HEAD:tests/task.test.js
+=======
+<<<<<<< HEAD:tests/task.test.js
+>>>>>>> 8e1a9c5 (slight modifications in testing files):tests/task.test.mjs
+// import {request} from "supertest";
+// import mongoose from "mongoose";
+// import app from "../src/server.js";
+const request = require("supertest")
+const mongoose = require("mongoose")
+const app = require("../src/server.js")
+<<<<<<< HEAD:tests/task.test.js
+=======
+=======
 import {request} from "supertest";
 import mongoose from "mongoose";
 import app from "../src/server.js";
+// const request = require("supertest")
+// const mongoose = require("mongoose")
+// const app = require("../src/server.js")
+>>>>>>> cd80d15 (slight modifications in testing files):tests/task.test.mjs
+>>>>>>> 8e1a9c5 (slight modifications in testing files):tests/task.test.mjs
 
 let token;
 
