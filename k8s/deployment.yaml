@@ -14,7 +14,8 @@ spec:
     spec:
       containers:
         - name: task-manager
-          image: your-dockerhub-username/task-manager:latest
+          image: joywin07/task-manager-api:latest
+          imagePullPolicy: Always
           ports:
             - containerPort: 5000
           envFrom:
