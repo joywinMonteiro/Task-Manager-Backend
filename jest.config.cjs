@@ -1,5 +1,5 @@
 // jest.config.cjs
-export default {
+module.exports = {
   testEnvironment: "node",
   extensionsToTreatAsEsm: [".mjs"], 
   transform: {},
