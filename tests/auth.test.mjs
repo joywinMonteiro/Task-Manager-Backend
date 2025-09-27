@@ -1,24 +1,9 @@
-<<<<<<< HEAD:tests/auth.test.js
-=======
-<<<<<<< HEAD:tests/auth.test.js
->>>>>>> 8e1a9c5 (slight modifications in testing files):tests/auth.test.mjs
-// import request from "supertest";
-const request = require("supertest")
-const mongoose = require("mongoose")
-const app = require("../src/server.js")
-// import mongoose from "mongoose";
-// import app from "../src/server.js";
-<<<<<<< HEAD:tests/auth.test.js
-=======
-=======
 // const request = require("supertest")
 // const mongoose = require("mongoose")
 // const app = require("../src/server.js")
 import request from "supertest";
 import mongoose from "mongoose";
 import app from "../src/server.js";
->>>>>>> cd80d15 (slight modifications in testing files):tests/auth.test.mjs
->>>>>>> 8e1a9c5 (slight modifications in testing files):tests/auth.test.mjs
 
 let token;
 
