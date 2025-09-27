@@ -8,9 +8,12 @@ const connectDB = async (mongoUri) => {
     });
     console.log('MongoDB connected');
   } catch (err) {
-    console.error('MongoDB connection error:', err.message);
-    process.exit(1);
-  }
+    console.error("MongoDB connection error:", err.message);
+    if (process.env.NODE_ENV !== "test") {
+      process.exit(1); // only exit in dev/production
+  }else {
+      throw err; // let Jest handle the error
+    }
 };
 
 export default connectDB;
